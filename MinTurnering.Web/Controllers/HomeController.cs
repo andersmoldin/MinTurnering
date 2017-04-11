@@ -10,6 +10,7 @@ namespace MinTurnering.Web.Controllers
     {
         public IActionResult Index()
         {
+            var hej = User.Claims;
             return View();
         }
 
